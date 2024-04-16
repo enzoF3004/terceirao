@@ -23,54 +23,13 @@ body {
 .conteudo-principal {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-
-
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
-
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
-}
-
-justify-content: center;
-}
-
-
-
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
-
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
-}
-
-align-items: center;
-max-width: 1200px;
-width: 100%;
-margin: 0 auto;
-}
 
 .titulo-principal {
     text-align: left;
